@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flatstep</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav">
+            <div class="container container-hero">
+                <div class="nav__logo">
+                    <a href="#">
+                        <strong style="display: flex;">
+                            <div class="R-logo">Flatstep</div>
+                            <span>.</span>
+                        </strong>
+                    </a>
+                </div>
+                <ul class="nav__left-list">
+                    <li>
+                        <a href="#">For sale</a>
+                    </li>
+
+                    <li>
+                        <a href="#">To rent</a>
+                    </li>
+                    <li>
+                        <a href="#">Developer offers</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+                <ul class="nav__right-list">
+                    <li class="myaccount-icon">
+                        <a href="#">
+                            <span>
+                                <i class="far fa-user-circle"></i>
+                            </span> My account
+                        </a>
+                    </li>
+
+                    <li class="right-list">
+                        <a href="#">Post your ad</a>
+                    </li>
+                </ul>
+                <div class="MobileNavigation">
+                    <ul class="Navigation-module--wrap--1EmxR">
+                        <li>
+                            <a href="#">For sale</a>
+                        </li>
+
+                        <li>
+                            <a href="#">To rent</a>
+                        </li>
+                        <li>
+                            <a href="#">Developer offers</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="toggle"></div>
+            </div>
+        </nav>
+    </header>
+    <!-- SECTION 1 -->
+    <Section class="hero">
+        <div class="container hero-container">
+            <form class="hero-form">
+                <fieldset class="hero-form-module">
+                    <h2>Find the best place for you in...</h2>
+                    <div class="hero-form-item">
+                        <i class="form-icon far fa-map-marker-alt"></i>
+                        <input class="input" placeholder="Select from the list or enter a city">
+                    </div>
+                    <div class="hero-form-item">
+                        <select options="Apartments,Houses,Garden" class="select-module">
+                          <option value="Apartments">Apartments</option>
+                          <option>Houses</option>
+                          <option>Garden</option>
+                        </select>
+                    </div>
+                    <div class="hero-form-item">
+                        <select options="Price,500$ – 1000$,1000$ – 1500$,1500$ – 2000$,2500$ – 3000$" class="select-module">
+                          <option value="Price">Price</option>
+                          <option>500$ – 1000$</option>
+                          <option>1000$ – 1500$</option>
+                          <option>1500$ – 2000$</option>
+                          <option>2500$ – 3000$</option>
+                        </select>
+                    </div>
+                    <div class="hero-form-item">
+                        <select options="Footage,20m²  – 35m²,35m²  – 50m2²,50m²  – 65m²,65m²  – 75m²,75m²  – 90m²" class="select-module">
+                          <option value="Footage">Footage</option>
+                          <option>20m²  – 35m²</option>
+                          <option>35m²  – 50m2²</option>
+                          <option>50m²  – 65m²</option>
+                          <option>65m²  – 75m²</option>
+                          <option>75m²  – 90m²</option>
+                        </select>
+                    </div>
+                    <div class="hero-form-item">
+                        <select options="Rooms,1,2,3,4,5+" class=" select-module ">
+                          <option value="Rooms ">Rooms</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5+</option>
+                        </select>
+                    </div>
+                    <div class="radio-buttom ">
+                        <div class="formItem-module ">
+                            <input type="radio " id="For rent " name="deal_type " value="For rent " class="Radio-module ">
+                            <label for="For rent " class="label-module ">For rent</label>
+                        </div>
+                        <div class="formItem-module ">
+                            <input type="radio " id="For sale " name="deal_type " value="For sale " class="Radio-module ">
+                            <label for="For sale " class="label-module ">For sale</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="hero-form-module-action ">
+                    <button type="submit ">
+                        serch
+                    </button>
+                </div>
+            </form>
+            <div class="hero-info">
+                <h1 class="titel ">
+                    Ready to find your new home?
+                </h1>
+                <div class="description ">
+                    Choose the best place for yourself from 25.000 apartments and houses all over Poland.
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!-- SECTION 2 -->
+    <section class="react-reveal">
+        <div class="container">
+            <div class="Info-module">
+                <h2>UNIVERSE OF CHOICES</h2>
+                <p>
+                    We care about your comfort. Thanks to our advanced categorisation and filtering system, estate owners have the opportunity to describe their property as accurately as possible. Are you looking for a spacious loft or maybe you are a solo player that prefers
+                    small and neat spaces? We got everything. Find what suits best for you.
+                </p>
+            </div>
+            <ul class="OfferList-module">
+                <li class="OfferItem-module">
+                    <div class="OfferItem-module--info">
+                        <span class="Counter-module">2,7k</span>
+                        <div class="OfferItem-module--lines">
+                            <h3 class="OfferItem-module--title">Spacious lofts</h3>
+                            <p class="OfferItem-module--desc">Starting from 1720$/mo</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="OfferItem-module">
+                    <div class="OfferItem-module--info">
+                        <span class="Counter-module">1,2k</span>
+                        <div class="OfferItem-module--lines">
+                            <h3 class="OfferItem-module--title">Cozy houses</h3>
+                            <p class="OfferItem-module--desc">Starting from 2360$/mo</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="OfferItem-module">
+                    <div class="OfferItem-module--info">
+                        <span class="Counter-module">1,1k</span>
+                        <div class="OfferItem-module--lines">
+                            <h3 class="OfferItem-module--title">Small-size flats</h3>
+                            <p class="OfferItem-module--desc">Starting from 630$/mo</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="OfferItem-module">
+                    <div class="OfferItem-module--info">
+                        <span class="Counter-module">250</span>
+                        <div class="OfferItem-module--lines">
+                            <h3 class="OfferItem-module--title">Luxury mansions
+                                <i class="fas fa-star" style="color: #ffb84e;"></i>
+                            </h3>
+                            <p class="OfferItem-module--desc">Starting from 5000$/mo</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="OfferItem-module">
+                    <div class="OfferItem-module--info">
+                        <span class="Counter-module">752</span>
+                        <div class="OfferItem-module--lines">
+                            <h3 class="OfferItem-module--title">Kid-friendly huts</h3>
+                            <p class="OfferItem-module--desc">Starting from 1372$/mo</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="slick-slider slick-initialized" dir="ltr">
+                <div class="slick-list">
+                    <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                        <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;    width: 100%;
+                        height: 100%;">
+                            <div>
+                                <div class="OfferItem-module">
+                                    <div class="OfferItem-module--info">
+                                        <span class="Counter-module">2,7k</span>
+                                        <div class="OfferItem-module--lines">
+                                            <h3 class="OfferItem-module--title">Spacious lofts</h3>
+                                            <p class="OfferItem-module--desc">Starting from 1720$/mo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="1" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none;">
+                            <div>
+                                <div class="OfferItem-module">
+                                    <div class="OfferItem-module--info">
+                                        <span class="Counter-module">1,2k</span>
+                                        <div class="OfferItem-module--lines">
+                                            <h3 class="OfferItem-module--title">Cozy houses</h3>
+                                            <p class="OfferItem-module--desc">Starting from 2360$/mo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="true" style="outline: none;">
+                            <div>
+                                <div class="OfferItem-module">
+                                    <div class="OfferItem-module--info">
+                                        <span class="Counter-module">1,1k</span>
+                                        <div class="OfferItem-module--lines">
+                                            <h3 class="OfferItem-module--title">Small-size flats</h3>
+                                            <p class="OfferItem-module--desc">Starting from 630$/mo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                            <div>
+                                <div class="OfferItem-module">
+                                    <div class="OfferItem-module--info">
+                                        <span class="Counter-module">250</span>
+                                        <div class="OfferItem-module--lines">
+                                            <h3 class="OfferItem-module--title">Luxury mansions
+                                                <i class="fas fa-star" style="color: #ffb84e;"></i>
+                                            </h3>
+                                            <p class="OfferItem-module--desc">Starting from 5000$/mo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none;">
+                            <div>
+                                <div class="OfferItem-module">
+                                    <div class="OfferItem-module--info">
+                                        <span class="Counter-module">752</span>
+                                        <div class="OfferItem-module--lines">
+                                            <h3 class="OfferItem-module--title">Kid-friendly huts</h3>
+                                            <p class="OfferItem-module--desc">Starting from 1372$/mo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Offer-module--actions">
+                <a href="#" class="Button-module">Show everything</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 3 -->
+    <section class="Newcomers-module">
+        <div class="Newcomers-module_container">
+            <div class="container">
+                <div class="Newcomers-module--info">
+                    <h2 class="Newcomers-Title">NEW OFFERS</h2>
+                    <p class="Newcaomers-Description">
+                        About 120 new ads are posted on this platform daily. That’s a lot. We don’t even know where did people get so many apartments? Magic. Discover a range of new real estate developments across Poland. Find the best.
+                    </p>
+                    <div class="offer-module-acrions">
+                        <a href="#" class="Button-module">Check out newcomers</a>
+                    </div>
+                </div>
+                <ul class="NewcomersList-module">
+                    <li class="Newcomersitem-module">
+                        <img src="images/newcomer-1.jpg" alt="" class="NewcomerItem-image">
+                        <h3 class="NewcomersTitle-module">Cosy flat in Srodmiescie</h3>
+                        <div class="location-module">
+                            <i class="fal fa-map-marker-alt"></i>
+                            <p>Warsaw, Centrum</p>
+                        </div>
+                        <span class="Price-module">1025$</span>
+                    </li>
+                    <li class="Newcomersitem-module">
+                        <img src="images/newcomer-2.jpg" alt="" class="NewcomerItem-image">
+                        <h3 class="NewcomersTitle-module">Private studio on Puławska...</h3>
+                        <div class="location-module">
+                            <i class="fal fa-map-marker-alt"></i>
+                            <p>Warsaw, Mokotów, Puławska</p>
+                        </div>
+                        <span class="Price-module">945$</span>
+                    </li>
+                    <li class="Newcomersitem-module">
+                        <img src="images/newcomer-3.jpg" alt="" class="NewcomerItem-image">
+                        <h3 class="NewcomersTitle-module">Lovely flat, excellent location</h3>
+                        <div class="location-module">
+                            <i class="fal fa-map-marker-alt"></i>
+                            <p>Warsaw, Muranów, Dzielna</p>
+                        </div>
+                        <span class="Price-module">1720$</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION 4 -->
+    <section>
+        <div class="container services-module">
+            <ul class="servicesList-module">
+                <li class="servicesItem-module">
+                    <svg class="ServicesItem-module--image--3tOSF" width="70" height="65" viewBox="0 0 70 65" fill="none">      
+                    <g clip-path="url(#clip0)"><path d="M62.21 28.57H1.35001L8.35001
+                    7.79H55.21L62.21 28.57Z" fill="#DEE5FF" stroke="#263056" stroke-width="2" 
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M3.59 28.57V56.42" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M60.07 28.57V56.42" stroke="#263056" stroke-width="2" 
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0.5 56.42H62.72" stroke="#263056" stroke-width="2" stroke-miterlimit="10"
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M44.71 16.64L31.61 3.64L18.96 16.64V56.42H44.71V16.64Z" fill="#F6F6F9" 
+                    stroke="#263056" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round"></path><path d="M37.41 56.42V41.61H26.47V56.42" 
+                    stroke="#263056" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" 
+                    stroke-linejoin="round"></path><path d="M40.52 62.1699H65.2C67.15 62.1699 68.72 
+                    60.5899 68.72 58.6499V51.6599C68.72 49.7099 67.14 48.1399 65.2 48.1399H40.52C38.57
+                    48.1399 37 49.7199 37 51.6599V58.6499C37 60.5899 38.57 62.1699 40.52 62.1699Z"
+                    fill="#263056"></path><path d="M49.68 7.79V0.5" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M9 37.5C8.44772 37.5 8 37.9477 8 38.5C8 39.0523 8.44772 39.5
+                    9 39.5V37.5ZM13.5 39.5C14.0523 39.5 14.5 39.0523 14.5 38.5C14.5 37.9477
+                    14.0523 37.5 13.5 37.5V39.5ZM9 39.5H13.5V37.5H9V39.5Z" fill="#263056"></path>
+                    <path d="M50 37.5C49.4477 37.5 49 37.9477 49 38.5C49 39.0523 49.4477 39.5 50
+                    39.5V37.5ZM54.5 39.5C55.0523 39.5 55.5 39.0523 55.5 38.5C55.5 37.9477 
+                    55.0523 37.5 54.5 37.5V39.5ZM50 39.5H54.5V37.5H50V39.5Z" fill="#263056">
+                    </path><circle cx="32" cy="20" r="3" stroke="#263056" stroke-width="2">
+                    </circle><path d="M44.4839 53.284C44.3519 53.116 44.1779 52.984 43.9619 
+                    52.888C43.7519 52.786 43.5479 52.735 43.3499 52.735C43.2479 52.735 43.1429 
+                    52.744 43.0349 52.762C42.9329 52.78 42.8399 52.816 42.7559 52.87C42.6719
+                    52.918 42.5999 52.984 42.5399 53.068C42.4859 53.146 42.4589 53.248 42.4589
+                    53.374C42.4589 53.482 42.4799 53.572 42.5219 53.644C42.5699 53.716 42.6359
+                    53.779 42.7199 53.833C42.8099 53.887 42.9149 53.938 43.0349 53.986C43.1549
+                    54.028 43.2899 54.073 43.4399 54.121C43.6559 54.193 43.8809 54.274 44.1149
+                    54.364C44.3489 54.448 44.5619 54.562 44.7539 54.706C44.9459 54.85 45.1049 
+                    55.03 45.2309 55.246C45.3569 55.456 45.4199 55.72 45.4199 56.038C45.4199
+                    56.404 45.3509 56.722 45.2129 56.992C45.0809 57.256 44.9009 57.475
+                    44.6729 57.649C44.4449 57.823 44.1839 57.952 43.8899 58.036C43.5959 
+                    58.12 43.2929 58.162 42.9809 58.162C42.5249 58.162 42.0839 58.084
+                    41.6579 57.928C41.2319 57.766 40.8779 57.538 40.5959 57.244L41.6039 
+                    56.218C41.7599 56.41 41.9639 56.572 42.2159 56.704C42.4739 56.83 
+                    42.7289 56.893 42.9809 56.893C43.0949 56.893 43.2059 56.881 43.3139 
+                    56.857C43.4219 56.833 43.5149 56.794 43.5929 56.74C43.6769 56.686 
+                    43.7429 56.614 43.7909 56.524C43.8389 56.434 43.8629 56.326 43.8629
+                    56.2C43.8629 56.08 43.8329 55.978 43.7729 55.894C43.7129 55.81 
+                    43.6259 55.735 43.5119 55.669C43.4039 55.597 43.2659 55.534 43.0979 
+                    55.48C42.9359 55.42 42.7499 55.357 42.5399 55.291C42.3359 55.225 
+                    42.1349 55.147 41.9369 55.057C41.7449 54.967 41.5709 54.853 41.4149 
+                    54.715C41.2649 54.571 41.1419 54.4 41.0459 54.202C40.9559 53.998 
+                    40.9109 53.752 40.9109 53.464C40.9109 53.11 40.9829 52.807 41.1269
+                    52.555C41.2709 52.303 41.4599 52.096 41.6939 51.934C41.9279 
+                    51.772 42.1919 51.655 42.4859 51.583C42.7799 51.505 43.0769 
+                    51.466 43.3769 51.466C43.7369 51.466 44.1029 51.532 44.4749
+                    51.664C44.8529 51.796 45.1829 51.991 45.4649 52.249L44.4839
+                    53.284ZM51.7553 58L51.2603 56.749H48.7943L48.3263 58H46.6523L49.3253
+                    51.628H50.8193L53.4653 58H51.7553ZM50.0453 53.329L49.2353
+                    55.516H50.8373L50.0453 53.329ZM54.992 
+                    58V51.628H56.54V56.659H59.006V58H54.992ZM60.7293 
+                    58V51.628H65.0133V52.933H62.2143V54.13H64.8603V55.363H62.2143V56.
+                    686H65.1753V58H60.7293Z" fill="white"></path>
+                    </g><defs><clipPath id="clip0"><rect width="70" height="65"
+                    fill="white"></rect></clipPath></defs>
+                    </svg>
+                    <h2 class="servicesItem-module-title">
+                        SELL YOUR PROPERTY
+                    </h2>
+                    <p class="servicesItem-module-discroption">
+                        We help you negotiate to make sure that you get the best price for your home. We help you with all administrative details all the way to the signature at the notary.
+                    </p>
+                    <a href="#" class="Button-module Button-module--reverse">
+                        Learn more
+                    </a>
+                </li>
+                <li class="servicesItem-module">
+                    <svg class="ServicesItem-module--image--3tOSF" width="63" height="73" viewBox="0 0 63 73" fill="none">
+                    <g clip-path="url(#clip0)">
+                    <path d="M46.29 10.11H8.85C7.53 10.11 6.46 11.18 6.46 12.5V71
+                    .37H48.68V12.5C48.68 11.18 47.61 10.11 46.29 10.11Z"
+                    fill="#DEE5FF" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" 
+                    stroke-linejoin="round"></path><path d="M37.95 1H17.05C15.74 1 14.67 2.07 14.67
+                    3.38V68.98C14.67 70.29 15.74 71.36 17.05 71.36H37.95C39.26 71.36 40.33
+                    70.29 40.33 68.98V3.38C40.33 2.07 39.26 1 37.95 1Z" fill="#F6F6F9"
+                    stroke="#263056" stroke-width="2" stroke-miterlimit="10" 
+                    stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M24.44 15.41H30.56" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M24.44 21.36H30.56" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M24.44 27.32H30.56" stroke="#263056" stroke-width="2" 
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M56.3 48.35L40.33 34.77L24.44 48.35V71.36H56.3V48.35Z"
+                    fill="#F6F6F9" stroke="#263056" stroke-width="2" stroke-miterlimit="10" 
+                    stroke-linecap="round" stroke-linejoin="round"></path><path d="M49.02 54.81H32.46V71.
+                    37H49.02V54.81Z" fill="#DEE5FF" stroke="#263056" stroke-width="2" 
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M61.43 71.36H1" stroke="#263056" stroke-width="2" stroke-miterlimit="10" 
+                    stroke-linecap="round" stroke-linejoin="round"></path></g><defs><clipPath id="clip0">
+                    <rect width="62.43" height="72.36" fill="white"></rect></clipPath></defs>
+                    </svg>
+                    <h2 class="servicesItem-module-title">LEASE YOUR APARTMENT</h2>
+                    <p class="servicesItem-module-discroption">
+                        We centralise listings of best quality apartments and houses for rent. No need to browse different websites and waste time. We have the best offers. </p>
+                    <a href="#" class="Button-module Button-module--reverse">
+                        Get started
+                    </a>
+                </li>
+                <li class="servicesItem-module">
+                    <svg class="ServicesItem-module--image--3tOSF" width="87" height="61" viewBox="0 0 87 61" fill="none">
+                    <path d="M33.4264 1.18446H17.0765C8.29799 1.18446 1.17203 8.38602
+                    1.17203 17.2577C1.17203 26.1412 8.29799 33.3309 17.0765 33.3309H20.1824L30.3088
+                    44.1332V33.3309H33.4147C42.2049 33.3309 49.3191 26.1293 49.3191 17.2577C49.3309
+                    8.38602 42.2166 1.18446 33.4264 1.18446Z" stroke="#263056" 
+                    stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" 
+                    stroke-linejoin="round"></path><path d="M13.6308 20.2781C15.5015 20.2781
+                    17.0179 18.7455 17.0179 16.855C17.0179 14.9644 15.5015 13.4319 13.6308 
+                    13.4319C11.7601 13.4319 10.2436 14.9644 10.2436 16.855C10.2436 18.7455
+                    11.7601 20.2781 13.6308 20.2781Z" stroke="#263056" stroke-width="2"
+                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                    </path><path d="M24.8588 20.2781C26.7295 20.2781 28.246 18.7455 28.246 
+                    16.855C28.246 14.9644 26.7295 13.4319 24.8588 13.4319C22.9881 13.4319 21.4716
+                    14.9644 21.4716 16.855C21.4716 18.7455 22.9881 20.2781 24.8588 20.2781Z" 
+                    stroke="#263056" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round"></path><path d="M36.0986 20.2781C37.9693 20.2781 39.4858
+                    18.7455 39.4858 16.855C39.4858 14.9644 37.9693 13.4319 36.0986 13.4319C34.2279 
+                    13.4319 32.7115 14.9644 32.7115 16.855C32.7115 18.7455 34.2279 20.2781 36.0986 
+                    20.2781Z" stroke="#263056" stroke-width="2" stroke-miterlimit="10"
+                    stroke-linecap="round" stroke-linejoin="round"></path><path d="M69.9116
+                    16.8549H53.5618C44.7715 16.8549 37.6573 24.0565 37.6573 32.9281C37.6573 
+                    41.8116 44.7832 49.0013 53.5618 49.0013V59.8037L63.6881 
+                    49.0013H69.9116C78.7019 49.0013 85.8161 41.7998 85.8161
+                    32.9281C85.8278 24.0565 78.7019 16.8549 69.9116 16.8549Z"
+                    fill="#DEE5FF" stroke="#263056" stroke-width="2" 
+                    stroke-miterlimit="10" stroke-linecap="round" 
+                    stroke-linejoin="round"></path><path d="M47.83 37.0583V35.5183L50
+                    .866 32.7683C51.0567 32.5849 51.2107 32.3979 51.328 32.2073C51.4454 
+                    32.0166 51.504 31.8039 51.504 31.5693C51.504 31.2906 51.416 31.0669
+                    51.24 30.8983C51.064 30.7223 50.8294 30.6342 50.536 30.6342C50.228 
+                    30.6342 49.975 30.7442 49.777 30.9643C49.5864 31.1769 49.4727 31.4593
+                    49.436 31.8113L47.665 31.5693C47.709 31.1733 47.8154 30.8213 47.984
+                        30.5133C48.16 30.2053 48.38 29.9449 48.644 29.7323C48.908 29.5123 
+                        49.2087 29.3473 49.546 29.2373C49.8907 29.1199 50.2537 29.0612 50.635
+                        29.0612C50.9944 29.0612 51.3427 29.1089 51.68 29.2042C52.0174 29.2996 
+                        52.318 29.4463 52.582 29.6443C52.846 29.8423 53.055 30.0916 53.209 
+                        30.3923C53.3704 30.6929 53.451 31.0449 53.451 31.4482C53.451 31.7269
+                        53.4144 31.9799 53.341 32.2073C53.2677 32.4273 53.165 32.6326 53.033 
+                        32.8233C52.9084 33.0139 52.7617 33.1936 52.593 33.3623C52.4317 33.5236 
+                        52.263 33.6849 52.087 33.8463L50.283 35.4523H53.462V37.0583H47.83ZM60
+                        .8584 35.5403V37.0583H59.1313V35.5403H55.4683V33.9893L58.6364 29.2703H60
+                        .8473V34.0443H61.9254V35.5403H60.8584ZM59.1424 31.1623H59.1093L57.2613 
+                        34.0443H59.1424V31.1623ZM64.4707 37.6303L63.2277 37.2233L66.6267 
+                        28.6763L67.8697 29.1052L64.4707 37.6303ZM72.2361 37.0583H70.0911L73.2481
+                        30.8543H69.5631V29.2703H75.2171V30.7443L72.2361 37.0583Z" 
+                        fill="#263056"></path>
+                    </svg>
+                    <h2 class="servicesItem-module-title">GET AN ASSISTANCE</h2>
+                    <p class="servicesItem-module-discroption">
+                        Our specialists will help you with real estate matters. From contact with tenants to real estate agent services. We can organize apartment and take care of all the papers.
+                    </p>
+                    <a href="#" class="Button-module Button-module--reverse">
+                        See how it works
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- SECTION 5 -->
+    <div class="container Report-module">
+        <div class="Report-module-image">
+            <img src="images/chart.png" alt="">
+        </div>
+        <div class="report-module-info">
+            <h2 class="Title-module">Property prices</h2>
+            <div class="Discroption-module">We’re not only “post & search” platform. Admit that you knew it. Thanks to our developed AI, we are able to process huge data massives, analyze current market situation and make predictions. For now everything is ok. Just saying.</div>
+            <a href="#" class="Button-module">Take a look at our reports</a>
+        </div>
+    </div>
+    <!-- SECTION 6 -->
+    <section class="twins Reviews-module">
+        <div class="container Reviews-module--main-container">
+            <h2 class="Title-module--wrap">what people say about us</h2>
+            <div class="Description-module--wrap Reviews-module--desc">People are the key in our work. We work with them and for them. As an employer we believe in our colleagues and support them. As a product company we do our best to deliver our customers (both current and future) the best possible experience
+                to make them feel happy and satisified. We want you to stay with us beacuse we love you.</div>
+            <div class="Reviews-module--counter__wrap">
+                <span class="Counter-module--wrap Reviews-module--wrap ">45k+
+                    <h3 class="Counter-module--title">Flats &amp; houses</h3>
+                </span>
+                <span class="Counter-module--wrap Reviews-module--wrap ">120
+                    <h3 class="Counter-module--title">New ads daily</h3>
+                </span>
+                <span class="Counter-module--wrap Reviews-module--wrap ">957k
+                    <h3 class="Counter-module--title">Views monthly</h3>
+                </span>
+                <span class="Counter-module--wrap Reviews-module--wrap Reviews-module--counter">5k
+                <h3 class="Counter-module--title">In-house experts</h3>
+                </span>
+            </div>
+        </div>
+        <div class="container lg Reviews-module-container">
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-2.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Tudor Robison</h3>
+                        <span class="ReviewItem-module--role">Property owner</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    I wanted to avoid unnecessary troubles and find the right tenant. And it worked. Because only rich hipsters visit this site.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" style="color:gray;"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-4.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Neville Longbottom</h3>
+                        <span class="ReviewItem-module--role">Property owner</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    This website helps eliminate a huge point of friction when it comes to finding office spaces and negotiating w
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-3.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Rosana Espinosa</h3>
+                        <span class="ReviewItem-module--role">Tenant</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    This is the only service that gives certainty that I don't have to kiss rats at night. Not anymore. Brrr.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-1.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Neville Longbottom</h3>
+                        <span class="ReviewItem-module--role">Property owner</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    Places helps eliminate a huge point of friction when it comes to finding office spaces and negotiating with landlords.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="container lg Reviews-module-container">
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-5.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Neville Longbottom</h3>
+                        <span class="ReviewItem-module--role">Property owner</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    Places helps eliminate a huge point of friction when it comes to finding office spaces and negotiating with landlords.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" style="color:gray;"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-8.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Rosana Espinosa</h3>
+                        <span class="ReviewItem-module--role">Tenant</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    This is the only service that gives certainty that I don't have to kiss rats at night. Not anymore. Brrr. </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-6.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Curtis Holcomb</h3>
+                        <span class="ReviewItem-module--role">Tenant</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    I didn't really want to move away from my parents. But that's what it’s like when parents are Tik-Tok fans.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" style="color: gray;"></i>
+                </div>
+            </div>
+            <div class="ReviewItem-module--wrap--3ULJ1">
+                <div class="ReviewItem-module--top--15pix">
+                    <img src="images/review-7.webp" alt="" class="ReviewItem-module-imag">
+                    <div class="ReviewItem-module--info">
+                        <h3 class="ReviewItem-module--title">Dliyah Mccullough</h3>
+                        <span class="ReviewItem-module--role">Property owner</span>
+                    </div>
+                </div>
+                <div class="ReviewItem-module--desc">
+                    Interacting with people sucks. I wanted to sell my apartment and reached out to an agent who did all the dirty work.
+                </div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star" style="color: gray;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="Footer-module--wrap">
+        <div class="container Footer-module-container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="" class="footer-logo-img">
+            </div>
+            <div class="FooterLinks-module">
+                <ul class="FooterLinks-module-list">
+                    <li class="FooterLinks-module-wrap"><a href="#">About us</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Help Center</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Price list</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Terms of cooperation</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Privacy Policy</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Press service</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="FooterLinks-module">
+                <h3 class="FooterLinksTitle-module--wrap">Services and tools</h3>
+                <ul class="FooterLinks-module-list">
+                    <li class="FooterLinks-module-wrap"><a href="#">Advertising</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Office tools</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Sample contracts</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Sell with us</a></li>
+                </ul>
+            </div>
+            <div class="FooterLinks-module">
+                <h3 class="FooterLinksTitle-module--wrap">Site map</h3>
+                <ul class="FooterLinks-module-list">
+                    <li class="FooterLinks-module-wrap"><a href="#">Category map</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Terrain map</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Articles and tips</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Database companies</a></li>
+                    <li class="FooterLinks-module-wrap"><a href="#">Career</a></li>
+                </ul>
+            </div>
+            <div class="FooterSocialLinks-module--wrap">
+                <h3 class="FooterLinksTitle-module--wrap FooterSocialLinks-module--title">
+                    You can find us on
+                </h3>
+                <ul class="FooterSocialLinks-module--links">
+                    <a aria-current="page" class="FooterSocialLinks-module--link" href="/">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a aria-current="page" class="FooterSocialLinks-module--link" href="/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a aria-current="page" class="FooterSocialLinks-module--link" href="/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a aria-current="page" class="FooterSocialLinks-module--link" href="/">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </ul>
+                <a aria-current="page" class="FooterSocialLinks-module--email" href="/">
+                    @flatstep.estate
+                </a>
+            </div>
+        </div>
+        <div class="container Footer-module-caption">
+            <p>
+                Made by
+                <span>
+                    <a href="https://www.unikorns.work/">Unikorns</a>
+                </span>
+            </p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
